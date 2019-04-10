@@ -41,16 +41,21 @@ ipython_config.py
 
 ### Data ###
 Data_Spacenet
+**/data
+
+### Tensorboard logs ###
+**/logs
+**/runs
 
 ### fastai symlink ###
 fastai
 
 ### temp files or swp file ###
-*/.swp
-temp
-cache
-backup
-*.pkl
+**/*.swp
+**/temp
+**/cache
+**/backup
+**/*.pkl
 
 # nohup output
-nohup.out
+**/nohup.out
